@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Fredoka';
+}
+header, section {
+    text-align: center;
+    padding: 3%;
+}
+h2 {
+    background-color: yellow;
+    color: black;
+    padding: 1%;
+}
+img {
+    width: 20%;
+}
+#inputs {
+    padding: 5%;
+}
+input {
+    margin: 2%;
+    padding: 1%;
+}
+button {
+    background-color: yellow;
+    color: black;
+    padding: 1%;
+    border: none;
+    font-family: 'Fredoka';
+    font-size: 150%;
+}

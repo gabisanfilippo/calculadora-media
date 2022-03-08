@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de média</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Média</h1>
+        <h2>Imersão Dev</h2>
+    </header>
+    <section>
+        <img src="./img/465070_article_blog_content_news_note_icon.png" alt="">
+    </section>
+    <section>
+        <h3>Insira suas notas dos 4 bimestres</h3>
+        <p>Atenção: para números com vírgulas, utilize ponto</p>
+        <div id="inputs">
+            <input type="number" id="nota1bim">
+            <input type="number" id="nota2bim">
+            <input type="number" id="nota3bim">
+            <input type="number" id="nota4bim">
+        </div>
+        <button onclick="media()">Calcular</button>
+    </section>
+    <section>
+        <h3 id="resultado"></h3>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
